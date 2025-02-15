@@ -6,7 +6,7 @@
 
 Professional portfolio website showcasing architectural and web development expertise.
 
-![Website Preview](https://phenomenal-pixie-f8d020.netlify.app/)
+[![Live Demo](https://img.shields.io/badge/demo-LIVE-green?logo=github)](https://your-link.com)
 
 ## Features ✨
 - Dark/Light Theme Toggle 🌓
