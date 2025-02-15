@@ -6,7 +6,7 @@
 
 Professional portfolio website showcasing architectural and web development expertise.
 
-![Website Preview](https://via.placeholder.com/800x400.png?text=Portfolio+Preview)
+![Website Preview](https://phenomenal-pixie-f8d020.netlify.app/)
 
 ## Features ✨
 - Dark/Light Theme Toggle 🌓
@@ -54,6 +54,7 @@ Replace placeholder content in:
 
 ## License 📄
 This project is licensed under the MIT License - see [LICENSE](LICENSE) file for details.
+
 
 ```
 
