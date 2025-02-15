@@ -6,7 +6,10 @@
 
 Professional portfolio website showcasing architectural and web development expertise.
 
-[![Live Demo](https://img.shields.io/badge/demo-LIVE-green?logo=github)](https://your-link.com)
+## 🚀 Live Demo  
+Check out the live version here:  
+[![Live Project](https://img.shields.io/badge/Live%20Demo-Click%20Here-blue)](https://himanshu-kumarvirtunexaproject.netlify.app/)
+
 
 ## Features ✨
 - Dark/Light Theme Toggle 🌓
