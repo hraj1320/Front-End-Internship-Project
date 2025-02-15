@@ -1,0 +1,88 @@
+:root {
+  --primary: #2563eb;
+  --secondary: #4f46e5;
+  --text: #1e293b;
+  --light-bg: #f8fafc;
+  --dark-bg: #0f172a;
+}
+
+[data-theme="dark"] {
+  --text: #f8fafc;
+  --light-bg: var(--dark-bg);
+  --secondary: #3b82f6;
+}
+
+body {
+  transition: background 0.5s ease, color 0.5s ease;
+  background: var(--light-bg);
+  color: var(--text);
+}
+
+.hero {
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.services, .testimonials {
+  padding: 4rem 0;
+}
+
+.testimonial-card {
+  background: var(--light-bg);
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.testimonial-card .stars {
+  color: #facc15;
+  font-size: 1.2rem;
+  margin-top: 5px;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .nav-menu {
+    display: none;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.contact-form button:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.theme-toggle {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--text);
+  transition: transform 0.3s ease;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  background: var(--dark-bg);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 3rem;
+}
